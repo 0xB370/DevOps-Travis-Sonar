@@ -5,15 +5,18 @@ cache:
   directories:
   - node_modules
 before_script:
-  - npm i -g npm@6.1.0
+- npm i -g npm@6.1.0
 install:
-  - npm install
+- npm install
 script:
-  - npm run test
+- npm run test
 deploy:
   provider: heroku
   skip_cleanup: true
-  api_key: 97698d79-7a3e-4117-a320-3497c3326559
   app: refactorci
   on:
     repo: Beto-23/Project-CI
+env:
+  global:
+  - secure: K/BxIBHNwSfLsF+4YFboCSNrHw9uq4o+yGGtBDW26N2U+MxHJhLExdoNFYhR+rel7hSM6v09tK6pOX+lUhkbUdT5vp4iSY5pVrLBAhaOu2+FfyQDBDNIGkhz82sJgI5yPAe05R61///BolGXy08JXF7MjGk0xABt8pMrlwhzsuThcfJgdHqTZzSdQfsQHg1rdJNe8tadPVTHz7kE3ZHe+EXs1P06YcXGgrynbaZLI82d9IwYKJcWPS4bANFG+DDoHX+0fYQy1y2Ca/dvRN4hW4amipjBa2jk0lAifsb64NnxChr/poAQakhjdy5/3YaQY0PSNgHi0a/5RZJJ8+HUpxPoqz+NlTZqyoqwcPLfAs6Jh8suCqxUYRi4F2NJITToXkb+Am3xJzEDKIkPMz5n8gUzjlTHVCD99JjDguo3TUnFuZ6REP2idUm2r5kpH+0G5Zie4yd8hG16u/9UcNXcQnYrwguhi3C4AIPgQAulQm2vwkyJFtssEmg5+ttBZa52CrNJOix7qYnKa5Zj9EtoJyceOVEawxQ/UwjmvQjdJ9jZvIaOP5DR79JTBq7jqCqn35BCTkFvQF4a6lOnoOhaoln4Oy1GRKiA0vrQjBJwBAlBA4AmiRmrb5sd8Vvn1B0FKmmIb4QSXm2k85o/LxuPQHXlMbMDmcHVAUizOT7iQpw=
+  - secure: XvNBQ3rjRFDzCe7F1fKfbQoUZoOvquw2W9mQCP85hkoqKLd3Y0SSoU8vWlzWNGp21+t8gjEeF1hWX05vNMsFyFIh9kjqR0l8fPHdoTB43UM6EMU6VMQO0WdIQ46PmuJA6jkpKrYZApQC28fCiH/3woTIMpB6wAUlUYVrf2JdEMcU01oiZjHp7a1yrJOUTgc5YRw41stEqzfcmUbTEOsy3KmTwvWM8bkuBEUmuAa/jcpPkUKoOQZL0W4/PoAl+IxwmGWKOdgAJicmZH1wiKYVl5BEdLHmUzUlM/C8iyiJorKdo+HVNV9CYTmTd043a1IqamDmtjvT51YPUSdiyKf4pPZeKP0r3vjEUNK66qK/lpw6vQ9RRRJfRpKiYqDFh4++DufwRHxJVVH4lIlbvaBqUfVPVSpCmWfbMi6q4B02xsdYa/QKDzpgUGz6UYQ/bPYV2zC/rt14nk3OQOKJTKnhgC71Gh5Ic3OJj7f5/PGNpD14pm2+rHiqVZiTGOLphOVrLlKpGzxHrxpzdK5V4Y8ojiaD4MwsE7zdPGsUrTXNBo+LutaMO8Xx4TxSJiFKlpNtde5QkVHE1mQxR/pFcpjoH/cJ7X9vxBKWWjEN7fi4jMd2rg7cGngy8pa3497+2chCSWsbPxWImkiBJqIqp0isEVgru20QeV3sfDUEGaFRBSQ=
