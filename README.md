@@ -5,7 +5,6 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Project-CI&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=Project-CI)
 ![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Project-CI&metric=sqale_index)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Project-CI&metric=code_smells)](https://sonarcloud.io/dashboard?id=Project-CI)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Project-CI&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=Project-CI)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
