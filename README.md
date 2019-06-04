@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Beto-23/Project-CI.svg?branch=master)](https://travis-ci.org/Beto-23/Project-CI)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
