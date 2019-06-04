@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/Beto-23/Project-CI.svg?branch=master)](https://travis-ci.org/Beto-23/Project-CI)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -74,3 +72,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 Agrego esta línea para hacer la prueba de integración continua 1
 
+[![Build Status](https://travis-ci.org/Beto-23/Project-CI.svg?branch=master)](https://travis-ci.org/Beto-23/Project-CI)
