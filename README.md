@@ -79,5 +79,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 
-Agrego esta línea para hacer la prueba de integración continua 1
-
