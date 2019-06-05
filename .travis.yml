@@ -12,7 +12,8 @@ addons:
   sonarcloud: true
 script:
 - npm run test
-- sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=beto-23-github -Dsonar.projectKey=Project-CI -Dsonar.sources='./src' -X
+- sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=beto-23-github -Dsonar.projectKey=Project-CI
+  -Dsonar.sources='./src' -X
 deploy:
   provider: heroku
   skip_cleanup: true
@@ -21,3 +22,6 @@ deploy:
     repo: Beto-23/Project-CI
   api_key:
     secure: S8rbHFTBM6NA5591Gz0KZYOlK5c1+YA3vzwt+8Ha2Brcpc3X1cBvck6DuWTZcUHyOAH+3Qhf8Oq3Rg1XII25ahShFR5yJYX3hZoZQszlae/bBG1G5DhZwS6sbVjbvx/pMaIJ10SohpSEwDMMe2l/ZPqVZIhVTqCo2lyMeFn7ou9yHNSBrbvt99KFaxtPo+RMjbrwHKL24KpTz6zN2rPaqSaWBnit3516a0ZUgEL/cCgNoFtwnzYYpHs1ieLQISGOQOe9AKO88HRQb3ZXwxGTMu6ntYayQzeFHUryxEAjz0WPT37CI4p96084EohW0KFXIOtQVcSF/sLUwGV/OvgmSSzpL6qh3eASF4FE424FSIaFPFhaJlY3MqJgw2b0pcQGR0+M8SmHzazta8umlWMA554bGW3oBd+iwI6mJL22r6RnFUG1HpUIO3TF9+P9sM92G7OdeF8ChXoM2p//tAc7bPXoQGXbMfebpS3AbIIDisQHG6cFRsFHhzz3NoSBuGglue3RiMhq4umrNCCDisyaO87uKgv3CuCapUy5HK84nVfu1kffQ63dVdfM1H4y2BbcFc7f1ATpJALhyZSWK2Xn9LOaq6+nEsU1JCF0VvnSCZ+gWgyPdpLptSSs79xNOAoHSA2psAmgmeEVACFXDyDqt08F3HRqJhhjyLcwhOl9es0=
+notifications:
+  slack:
+    secure: ikfbJERuBMJBRECEoVRfHBNWKmvB36Ihy7DiJgoNq7YTVhh/hyqQjCmnqTLCDAgxnTTUMe+IgnpHI//C+jN5ncYUJHyJP7pp2Db2YfgSi6ryAJ/x9XDRUk5zx1oUYmHh0yiJH2ZWjxrJkHOhirRKloEMeUpuqljxvZO6wCB5TQI7M9lpW3oYGKd5uVu8LuOpcagIn4GOTr1HNjdGyiuvzLiUNKaNzDsRRLV90eUzMdS2uMi1eFBUwlrWzbg1tOFVGINXZQ5nCkS9qVEX57Ilq34EsoDDtPsCRnWDwlrKapfZvpNsP/kB7G2zsE55+h8n/QRwv0JNUkwzk8940+x4D9W2BhBIBfnMLqmtOX5DMlUnt2982z0BPPxC9aVyM3w2XDfFtOsEdByKsgtir2It/TsCtQ74XV1AA7KkOFJB1/T8gHeHPYLScJnW9KMmsOjoTyKq6dotEoDq13eTZOnHK03I9cJ68/7fVr3PwqUEmJExswvj6KGYzMCvXvdEF/PGuH3My7jaSAo+/zoYSVcRqHzJldI3Wz8bwSzkrIOASdyT38DEpBtUT1wdnkfxaB7hXnl22Me8Zzy1xSLEOrRk9OWhmqGm1PsmuBcoLsPwPfjCqvgW1yDZfjouN44Q1Jwf0gI44qNw6tv5yQJNE0LKSTOj4TcNz1HzYR+9oPb0Yos=
