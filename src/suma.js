@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 
 function suma (valor1,valor2){
 	
-	return String(valor1) + String(valor2);
+	return valor1 + valor2;
 
 }
 //}
