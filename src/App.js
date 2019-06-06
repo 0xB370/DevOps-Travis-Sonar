@@ -25,7 +25,7 @@ class App extends Component {
       <Grid textAlign='center' style={{ height: '100%' }} verticalAlign='middle'>
         <Grid.Column style={{ maxWidth: 450 }}>
           <Header as='h2' color='blue' textAlign='center'>
-            Sumador Prueba 9
+            Sumador
           </Header>
           <Form size='large'>
             <Segment stacked>
