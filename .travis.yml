@@ -25,9 +25,3 @@ deploy:
 notifications:
   slack:
     secure: ikfbJERuBMJBRECEoVRfHBNWKmvB36Ihy7DiJgoNq7YTVhh/hyqQjCmnqTLCDAgxnTTUMe+IgnpHI//C+jN5ncYUJHyJP7pp2Db2YfgSi6ryAJ/x9XDRUk5zx1oUYmHh0yiJH2ZWjxrJkHOhirRKloEMeUpuqljxvZO6wCB5TQI7M9lpW3oYGKd5uVu8LuOpcagIn4GOTr1HNjdGyiuvzLiUNKaNzDsRRLV90eUzMdS2uMi1eFBUwlrWzbg1tOFVGINXZQ5nCkS9qVEX57Ilq34EsoDDtPsCRnWDwlrKapfZvpNsP/kB7G2zsE55+h8n/QRwv0JNUkwzk8940+x4D9W2BhBIBfnMLqmtOX5DMlUnt2982z0BPPxC9aVyM3w2XDfFtOsEdByKsgtir2It/TsCtQ74XV1AA7KkOFJB1/T8gHeHPYLScJnW9KMmsOjoTyKq6dotEoDq13eTZOnHK03I9cJ68/7fVr3PwqUEmJExswvj6KGYzMCvXvdEF/PGuH3My7jaSAo+/zoYSVcRqHzJldI3Wz8bwSzkrIOASdyT38DEpBtUT1wdnkfxaB7hXnl22Me8Zzy1xSLEOrRk9OWhmqGm1PsmuBcoLsPwPfjCqvgW1yDZfjouN44Q1Jwf0gI44qNw6tv5yQJNE0LKSTOj4TcNz1HzYR+9oPb0Yos=
-  webhooks: https://travis-for-jira-prod.toolsplus.app/travis/notifications?token=14b9da18-04be-3bed-8bcb-95c665d493fa
-    on_success: always
-    on_failure: always
-    on_start: always
-    on_cancel: always
-    on_error: always
