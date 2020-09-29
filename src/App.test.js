@@ -16,6 +16,6 @@ it('renders without crashing', () => {
 test('Test de prueba', () => {
 	var result = adding(1,1);
 	//var bandera = (result == 2);
-	expect(result == 2).toBeTruthy();
+	expect(result == 11).toBeTruthy();
     //assert.equal(result, 2);
 })
